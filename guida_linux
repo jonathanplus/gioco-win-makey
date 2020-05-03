@@ -1,0 +1,120 @@
+guida linux
+
+sudo apt-get update && sudo apt-get dist-upgrade
+
+installare mosquitto comandi:
+
+sudo apt install mosquitto
+
+installare pip per python3:
+
+sudo apt install python3-pip
+
+installiamo mplayer
+
+sudo apt install mplayer
+
+il tempo che installa mplayer
+
+installiamo la libreria in python mplayer comando:
+
+pip3 install mplayer.py
+
+il tempo che installa mplayer
+
+installiamo la libreria in python phao comando:
+
+pip3 install paho-mqtt
+
+il tempo che installa phao
+
+installiamo npm comando:
+
+sudo apt install npm
+
+installiamo node.js comando:
+
+sudo apt install nodejs
+
+installiamo node-red comando:
+
+sudo npm install -g --unsafe-perm node-red
+
+si puo' accedere in due modi a node-red uno standard se hai node-red installato e configurato , 
+l' altro con l'indirizzo ip del pc, dove è installato node-red e configurato usato 
+quando si accede da un'altro dispositivo
+
+aprite il browser e scrivete 127.0.0.1:1880
+
+o aprite un' altro terminale e digitate "ipconfig" per sapere il vostro indizzo ip
+
+andate sul vostro browser e digitate "192.168.x.x:1880"
+si aprira una scheda del vostro nodo rosso
+
+aperto ci rechiamo sul menù a tendina sulla destra e scegliano menage palette
+clicchiamo su install
+e cerchiamo webhookrelay e lo installiamo
+cerchiamo node-red-dashboard e installiamo
+cerchiamo node-red-contrib-keypress e installiamo
+
+copiare la cartella linux progetto dal link:
+
+https://drive.google.com/file/d/1gUs0nVt_jzzJU3OP5iSMlOeRzqRIq6LX/view?usp=sharing
+
+password:
+
+richiederla all'indirizzo ferruajonathan@hotmail.it
+
+poi sempre nel menù a tendina scegliamo "import" poi andiamo su "select a file to import"
+
+selezioniamo il file "flows.json" nella cartella scaricata in precedenza
+
+clicchiamo su import
+
+abbiamo caricato i nodi ora dobbiamo modificare alcuni parametri di qualche nodo 
+
+1) impostare ip esatto del broker cioe' il ip del nostro pc con mosquitto installato sopra, 
+
+e se abbiamo configurato webhook mettere le impostazioni per il collegamento all'assistente di google
+
+rechiamoci in alto sul primo flow 1 clicchiamo 2 volte sopra e scegliamo delete in modo da cancellare il foglio vuoto
+
+ora abbiamo il flow 1 importato davanti a noi
+
+clicchiamo 2 volte sulla casellina viola "giochi"
+
+nella riga server clicchiamo sulla matita
+
+in server scriviamo l'ip del nostro pc dove è installato mosquitto
+
+clicchiamo update
+
+e poi done pulsante rosso
+
+per google ne parliamo in un'altra guida
+
+ora ci rechiamo in alto a destra e clicchiamo sul pulsante rosso "Deploy"
+
+chiudiamo
+
+ci rechiamo nella cartella linux progetto scaricata in precedenza
+
+copiare area di lavoro nel desktop o cartella desktop
+
+copiare la cartella datimp nella cartella principale
+
+aprire la cartella "file nella cartella principale"
+e copiare i file nella cartella principale
+
+aprire il file ipbroker e impostare l'ip del nostro pc
+
+dove è installato mosquitto e abbiamo finito.
+
+
+
+
+
+
+
+
+
